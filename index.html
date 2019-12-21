@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="whole">
+        <label>
+            <p>Name: </p><br>
+            <input type="text" name='username' id="username">
+        </label><br><br>
+        <label>
+            <p>Roll No: </p><br>
+            <input type="text" name="rollNo" id="rollNo">
+        </label><br><br>
+        <label>
+            <p>Fee Paid: </p><br>
+            <input type="text" name="feePaid" id="feePaid">
+        </label> <br><br>
+        <input type="submit" onclick="show();" id="submit"><br><br>
+    </div>
+    <table id="push" class="table">
+        <tr>
+            <th>S.No</th>
+            <th class="padd">Name</th>
+            <th class="padd">Roll Number</th>
+            <th class="padd">Fee Paid</th>
+            <th class="padd">Remaining Fee</th>
+        </tr>
+    </table>
+    <div id="newDiv"></div>
+</body>
+
+</html>
